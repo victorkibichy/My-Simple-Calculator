@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		05C2070F2C0EE2FA00FB4542 /* My_Simple_CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C2070E2C0EE2FA00FB4542 /* My_Simple_CalculatorApp.swift */; };
-		05C207112C0EE2FA00FB4542 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C207102C0EE2FA00FB4542 /* ContentView.swift */; };
+		05C207112C0EE2FA00FB4542 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C207102C0EE2FA00FB4542 /* HomeView.swift */; };
 		05C207132C0EE2FC00FB4542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C207122C0EE2FC00FB4542 /* Assets.xcassets */; };
 		05C207162C0EE2FC00FB4542 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C207152C0EE2FC00FB4542 /* Preview Assets.xcassets */; };
 		05C207182C0EE2FC00FB4542 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C207172C0EE2FC00FB4542 /* Persistence.swift */; };
@@ -16,6 +16,8 @@
 		05C207252C0EE2FC00FB4542 /* My_Simple_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C207242C0EE2FC00FB4542 /* My_Simple_CalculatorTests.swift */; };
 		05C2072F2C0EE2FC00FB4542 /* My_Simple_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C2072E2C0EE2FC00FB4542 /* My_Simple_CalculatorUITests.swift */; };
 		05C207312C0EE2FC00FB4542 /* My_Simple_CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C207302C0EE2FC00FB4542 /* My_Simple_CalculatorUITestsLaunchTests.swift */; };
+		05C2073F2C0EF3B900FB4542 /* MyCalculatorButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C2073E2C0EF3B900FB4542 /* MyCalculatorButtons.swift */; };
+		05C207412C0EF45500FB4542 /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C207402C0EF45500FB4542 /* Operations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,7 @@
 /* Begin PBXFileReference section */
 		05C2070B2C0EE2FA00FB4542 /* My Simple Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Simple Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05C2070E2C0EE2FA00FB4542 /* My_Simple_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Simple_CalculatorApp.swift; sourceTree = "<group>"; };
-		05C207102C0EE2FA00FB4542 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05C207102C0EE2FA00FB4542 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		05C207122C0EE2FC00FB4542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05C207152C0EE2FC00FB4542 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		05C207172C0EE2FC00FB4542 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +50,8 @@
 		05C2072A2C0EE2FC00FB4542 /* My Simple CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Simple CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05C2072E2C0EE2FC00FB4542 /* My_Simple_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Simple_CalculatorUITests.swift; sourceTree = "<group>"; };
 		05C207302C0EE2FC00FB4542 /* My_Simple_CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Simple_CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		05C2073E2C0EF3B900FB4542 /* MyCalculatorButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCalculatorButtons.swift; sourceTree = "<group>"; };
+		05C207402C0EF45500FB4542 /* Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +102,10 @@
 		05C2070D2C0EE2FA00FB4542 /* My Simple Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				05C2070E2C0EE2FA00FB4542 /* My_Simple_CalculatorApp.swift */,
-				05C207102C0EE2FA00FB4542 /* ContentView.swift */,
+				05C207432C0EFB1D00FB4542 /* Screens */,
+				05C207422C0EF49700FB4542 /* AppRoot */,
+				05C2073D2C0EF22D00FB4542 /* Utilities */,
 				05C207122C0EE2FC00FB4542 /* Assets.xcassets */,
-				05C207172C0EE2FC00FB4542 /* Persistence.swift */,
 				05C207192C0EE2FC00FB4542 /* My_Simple_Calculator.xcdatamodeld */,
 				05C207142C0EE2FC00FB4542 /* Preview Content */,
 			);
@@ -131,6 +135,32 @@
 				05C207302C0EE2FC00FB4542 /* My_Simple_CalculatorUITestsLaunchTests.swift */,
 			);
 			path = "My Simple CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		05C2073D2C0EF22D00FB4542 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				05C207172C0EE2FC00FB4542 /* Persistence.swift */,
+				05C2073E2C0EF3B900FB4542 /* MyCalculatorButtons.swift */,
+				05C207402C0EF45500FB4542 /* Operations.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		05C207422C0EF49700FB4542 /* AppRoot */ = {
+			isa = PBXGroup;
+			children = (
+				05C2070E2C0EE2FA00FB4542 /* My_Simple_CalculatorApp.swift */,
+			);
+			path = AppRoot;
+			sourceTree = "<group>";
+		};
+		05C207432C0EFB1D00FB4542 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				05C207102C0EE2FA00FB4542 /* HomeView.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +294,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				05C207182C0EE2FC00FB4542 /* Persistence.swift in Sources */,
-				05C207112C0EE2FA00FB4542 /* ContentView.swift in Sources */,
+				05C207112C0EE2FA00FB4542 /* HomeView.swift in Sources */,
+				05C2073F2C0EF3B900FB4542 /* MyCalculatorButtons.swift in Sources */,
+				05C207412C0EF45500FB4542 /* Operations.swift in Sources */,
 				05C2070F2C0EE2FA00FB4542 /* My_Simple_CalculatorApp.swift in Sources */,
 				05C2071B2C0EE2FC00FB4542 /* My_Simple_Calculator.xcdatamodeld in Sources */,
 			);
