@@ -32,10 +32,12 @@ enum MyCalculatorButtons: String, Identifiable {
     var id: String { self.rawValue }
     var colorButton: Color{
         switch self{
-        case .divide, .substract, .multiply, .plus,.equal:
+        case .divide, .substract, .multiply, .plus:
             return .red
         case .clear, .percentage, .negative:
             return .teal
+        case .equal:
+            return .green
         default:
             return Color(UIColor(red: 55/255.0, green: 55/255.0, blue: 55/255.0,alpha: 1))
                     
