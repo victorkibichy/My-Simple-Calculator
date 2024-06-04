@@ -33,11 +33,11 @@ enum MyCalculatorButtons: String, Identifiable {
     var colorButton: Color{
         switch self{
         case .divide, .substract, .multiply, .plus,.equal:
-            return .green
+            return .red
         case .clear, .percentage, .negative:
-            return .orange
+            return .teal
         default:
-            return Color(UIColor(red: 55/255.0, green: 55/255.0, blue: 55/255.0,alpha: 2))
+            return Color(UIColor(red: 55/255.0, green: 55/255.0, blue: 55/255.0,alpha: 1))
                     
         }
     }
