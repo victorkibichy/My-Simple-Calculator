@@ -5,7 +5,7 @@
 //  Created by  Bouncy Baby on 6/4/24.
 //
 
-import SwiftUI
+
 import CoreData
 import SwiftUI
 enum MyCalculatorButtons: String, Identifiable {
@@ -37,7 +37,7 @@ enum MyCalculatorButtons: String, Identifiable {
         case .clear, .percentage, .negative:
             return .orange
         default:
-            return Color(UIColor(red: 55/255.0, green: 55/255.0, blue: 55/255.0,alpha: 1))
+            return Color(UIColor(red: 55/255.0, green: 55/255.0, blue: 55/255.0,alpha: 2))
                     
         }
     }
@@ -52,8 +52,8 @@ struct ContentView: View {
     @State var runningNumber: Double = 0 // Change data type to Double
     let buttons: [[MyCalculatorButtons]] = [
         [.clear, .percentage, .negative, .divide],
-        [.seven, .eight, .nine, .multiply],
-        [.four, .five, .six, .substract],
+        [.seven, .eight, .nine, .substract],
+        [.four, .five, .six, .multiply],
         [.one, .two, .three, .plus],
         [.zero, .decimal, .equal]
     ]
